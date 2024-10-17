@@ -1,0 +1,17 @@
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\GuitarStoreApplication.exe
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\GuitarStoreApplication.deps.json
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\GuitarStoreApplication.runtimeconfig.json
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\GuitarStoreApplication.dll
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\GuitarStoreApplication.pdb
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\bin\Debug\net8.0\Newtonsoft.Json.dll
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.csproj.AssemblyReference.cache
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.AssemblyInfoInputs.cache
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.AssemblyInfo.cs
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.csproj.CoreCompileInputs.cache
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarSt.CAA04113.Up2Date
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.dll
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\refint\GuitarStoreApplication.dll
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.pdb
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.genruntimeconfig.cache
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\ref\GuitarStoreApplication.dll

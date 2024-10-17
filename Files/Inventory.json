@@ -1,0 +1,24 @@
+[
+  {
+    "SerialNumber": "SN-03993bc6",
+    "Price": 5600.0,
+    "Spec": {
+      "Builder": 0,
+      "Model": "Fex1256",
+      "Type": 0,
+      "BackWood": 3,
+      "TopWood": 3
+    }
+  },
+  {
+    "SerialNumber": "SN-ec7f2b0c",
+    "Price": 5600.0,
+    "Spec": {
+      "Builder": 0,
+      "Model": "FE2056",
+      "Type": 1,
+      "BackWood": 1,
+      "TopWood": 1
+    }
+  }
+]
