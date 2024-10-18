@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|s:\\office work\\monocept training\\assignments\\guitarstoreapplication\\guitarstoreapplication\\presentation\\guitarstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|solutionrelative:presentation\\guitarstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|s:\\office work\\monocept training\\assignments\\guitarstoreapplication\\guitarstoreapplication\\files\\inventory.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|solutionrelative:files\\inventory.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|s:\\office work\\monocept training\\assignments\\guitarstoreapplication\\guitarstoreapplication\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09AD65F-00FD-491E-BD4E-BFCBF6B6D10E}|GuitarStoreApplication.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.json",
+              "DocumentMoniker": "S:\\Office Work\\Monocept Training\\Assignments\\GuitarStoreApplication\\GuitarStoreApplication\\Files\\Inventory.json",
+              "RelativeDocumentMoniker": "Files\\Inventory.json",
+              "ToolTip": "S:\\Office Work\\Monocept Training\\Assignments\\GuitarStoreApplication\\GuitarStoreApplication\\Files\\Inventory.json",
+              "RelativeToolTip": "Files\\Inventory.json",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T07:48:11.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "S:\\Office Work\\Monocept Training\\Assignments\\GuitarStoreApplication\\GuitarStoreApplication\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Models\\Inventory.cs",
+              "ToolTip": "S:\\Office Work\\Monocept Training\\Assignments\\GuitarStoreApplication\\GuitarStoreApplication\\Models\\Inventory.cs",
+              "RelativeToolTip": "Models\\Inventory.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowD8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:40:27.67Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Presentation\\GuitarStore.cs",
               "ToolTip": "S:\\Office Work\\Monocept Training\\Assignments\\GuitarStoreApplication\\GuitarStoreApplication\\Presentation\\GuitarStore.cs",
               "RelativeToolTip": "Presentation\\GuitarStore.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwG4AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowKQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T18:04:28.962Z",
               "EditorCaption": ""

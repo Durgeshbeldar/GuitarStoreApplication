@@ -43,6 +43,7 @@ namespace GuitarStoreApplication.Presentation
                         DeleteGuitar(manager);
                         break;
                     case 6:
+                        Console.WriteLine("\nApplication Exited Successfully... Thank You!");
                         return;
                     default:
                         Console.WriteLine("Invalid choice. Try again.");
@@ -111,7 +112,7 @@ namespace GuitarStoreApplication.Presentation
             var matchingGuitars = manager.SearchGuitars(builder, backWood, type);
             if (matchingGuitars.Count > 0)
             {
-                Console.WriteLine("Matched Found\n");
+                Console.WriteLine("\nMatched Found");
                 foreach (var guitar in matchingGuitars)
                 {
                     Console.WriteLine(guitar);
@@ -161,18 +162,10 @@ namespace GuitarStoreApplication.Presentation
             bool isDeleted = manager.DeleteGuitar(serialNumber);
             if (isDeleted)
             {
-                Console.WriteLine("Guitar deleted successfully.");
+                Console.WriteLine("\nGuitar deleted successfully.");
                 return ;
             }
             Console.WriteLine("Guitar not found.");
         }
-
-
-
-
-
-
-
-
     }
 }

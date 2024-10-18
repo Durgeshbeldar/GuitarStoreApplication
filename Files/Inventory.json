@@ -20,5 +20,82 @@
       "BackWood": 1,
       "TopWood": 1
     }
+  },
+  {
+    "SerialNumber": "SN-51df4f56",
+    "Price": 4999.99,
+    "Spec": {
+      "Builder": 1,
+      "Model": "MGT-X55",
+      "Type": 1,
+      "BackWood": 2,
+      "TopWood": 2
+    }
+  },
+  {
+    "SerialNumber": "SN-df98a293",
+    "Price": 6200.0,
+    "Spec": {
+      "Builder": 2,
+      "Model": "GibsonStar",
+      "Type": 0,
+      "BackWood": 0,
+      "TopWood": 0
+    }
+  },
+  {
+    "SerialNumber": "SN-2c8d9abf",
+    "Price": 7500.0,
+    "Spec": {
+      "Builder": 3,
+      "Model": "Collings-987",
+      "Type": 0,
+      "BackWood": 4,
+      "TopWood": 4
+    }
+  },
+  {
+    "SerialNumber": "SN-ff7e0032",
+    "Price": 8400.0,
+    "Spec": {
+      "Builder": 4,
+      "Model": "Olson-Super",
+      "Type": 1,
+      "BackWood": 5,
+      "TopWood": 5
+    }
+  },
+  {
+    "SerialNumber": "SN-8b4f5a12",
+    "Price": 7200.0,
+    "Spec": {
+      "Builder": 5,
+      "Model": "RyanElite",
+      "Type": 1,
+      "BackWood": 3,
+      "TopWood": 3
+    }
+  },
+  {
+    "SerialNumber": "SN-a5bc96d2",
+    "Price": 5100.0,
+    "Spec": {
+      "Builder": 0,
+      "Model": "FenderJazz",
+      "Type": 1,
+      "BackWood": 1,
+      "TopWood": 2
+    }
+  },
+  {
+    "SerialNumber": "SN-bbaf23a4",
+    "Price": 5400.0,
+    "Spec": {
+      "Builder": 1,
+      "Model": "Martin-D45",
+      "Type": 0,
+      "BackWood": 0,
+      "TopWood": 0
+    }
   }
 ]
