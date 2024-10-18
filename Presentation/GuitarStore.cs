@@ -54,35 +54,28 @@ namespace GuitarStoreApplication.Presentation
         static void AddGuitar(GuitarManager manager)
         {
             Console.WriteLine("Enter Price:");
-            string priceInput = Console.ReadLine();
-            if (!double.TryParse(priceInput, out double price))
-            {
-                Console.WriteLine("Invalid price. Please enter a valid number.");
-                return;
-            }
+            double price = double.Parse(Console.ReadLine());
+           
+            Builder builder = SelectEnumValue<Builder>("\nSelect Builder :");
 
-            Builder builder = SelectEnumValue<Builder>("Select Builder :");
-
-            Console.WriteLine("Enter Model:");
+            Console.WriteLine("\nEnter Model:");
             string model = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(model))
-            {
-                Console.WriteLine("Model cannot be empty.");
-                return;
-            }
 
-            GuitarType type = SelectEnumValue<GuitarType>("Select Guitar Type:");
+            GuitarType type = SelectEnumValue<GuitarType>("\nSelect Guitar Type :");
 
-            Wood backWood = SelectEnumValue<Wood>("Select Back Wood:");
+            Wood backWood = SelectEnumValue<Wood>("\nSelect Back Wood:");
 
-            Wood topWood = SelectEnumValue<Wood>("Select Top Wood:");
+            Wood topWood = SelectEnumValue<Wood>("\nSelect Top Wood:");
 
             manager.AddGuitar(price, builder, model, type, backWood, topWood);
-            Console.WriteLine("Guitar added successfully!");
+            Console.WriteLine("Guitar added successfully!\n");
         }
 
+
+      
+
         // Method to display enum options and handle selection
-        static T SelectEnumValue<T>(string prompt) where T : Enum
+        static T SelectEnumValue<T>(string prompt)
         {
             Console.WriteLine(prompt);
 
@@ -90,12 +83,13 @@ namespace GuitarStoreApplication.Presentation
             var values = Enum.GetValues(typeof(T));
             for (int i = 0; i < values.Length; i++)
             {
-                Console.WriteLine($"{i + 1}. {values.GetValue(i)}");
+                Console.Write($"{i + 1}. {values.GetValue(i)}  ");
             }
 
+            Console.WriteLine();
             // Get user selection
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out int selectedIndex) && selectedIndex >= 1 && selectedIndex <= values.Length)
+            int selectedIndex = int.Parse(Console.ReadLine());
+            if (selectedIndex >= 1 && selectedIndex <= values.Length)
             {
                 return (T)values.GetValue(selectedIndex - 1);
             }
@@ -106,14 +100,13 @@ namespace GuitarStoreApplication.Presentation
 
         static void SearchGuitar(GuitarManager manager)
         {
-            Console.WriteLine("Select Builder (Fender, Martin, etc.):");
-            Builder builder = (Builder)Enum.Parse(typeof(Builder), Console.ReadLine());
+            Builder builder = SelectEnumValue<Builder>("\nSelect Builder :");
 
-            Console.WriteLine("Select Back Wood (Alder, Cedar, etc.):");
-            Wood backWood = (Wood)Enum.Parse(typeof(Wood), Console.ReadLine());
+            GuitarType type = SelectEnumValue<GuitarType>("\nSelect Guitar Type :");
 
-            Console.WriteLine("Select Guitar Type (Acoustic, Electric):");
-            GuitarType type = (GuitarType)Enum.Parse(typeof(GuitarType), Console.ReadLine());
+            Wood backWood = SelectEnumValue<Wood>("\nSelect Back Wood:");
+
+            Wood topWood = SelectEnumValue<Wood>("\nSelect Top Wood:");
 
             var matchingGuitars = manager.SearchGuitars(builder, backWood, type);
             if (matchingGuitars.Count > 0)

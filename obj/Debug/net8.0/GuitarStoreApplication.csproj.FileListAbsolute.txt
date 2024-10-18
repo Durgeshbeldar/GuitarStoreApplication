@@ -15,3 +15,4 @@ S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreA
 S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.pdb
 S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.genruntimeconfig.cache
 S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\ref\GuitarStoreApplication.dll
+S:\Office Work\Monocept Training\Assignments\GuitarStoreApplication\GuitarStoreApplication\obj\Debug\net8.0\GuitarStoreApplication.sourcelink.json
